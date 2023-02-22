@@ -7,12 +7,12 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
 public class SimpleFragment extends Fragment {
-
     private TextView simpleHeader;
     private TextView simpleAnswer;
     private RadioGroup simpleRadioGroup;
@@ -20,8 +20,12 @@ public class SimpleFragment extends Fragment {
     private RadioButton simpleRadioButtonNo;
 
     public SimpleFragment() {
-        // Required empty public constructor
     }
+
+    public static SimpleFragment newInstance() {
+        return new SimpleFragment();
+    }
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
