@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Pertemuan 2 Tugas</string>
+    <string name="header">HONDA PCX160</string>
+    <string name="description_initial">Honda PCX160 tersedia dalam pilihan mesin Petrol di Indonesia Scooter baru dari Honda hadir dalam 4 varian. Bicara soal spesifikasi mesin Honda PCX160, ini ditenagai dua pilihan mesin Petrol berkapasitas 156.9 cc. PCX160 tersedia dengan transmisi CVT tergantung variannya. PCX160 adalah Scooter 2 seater dengan panjang 1936 mm, lebar 742 mm, wheelbase 1313 mm. serta ground clearance 135 mm.</string>
+    <string name="text_action_button_state_initial">Lihat Kelebihan</string>
+    <string name="text_action_button_state_more">Mantap!</string>
 </resources>
