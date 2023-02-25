@@ -35,15 +35,15 @@ public class MainActivity extends AppCompatActivity {
         if (resIdDescription == R.string.description_initial) {
             DescriptionFragment fragment = DescriptionFragment.newInstance(R.string.description_more);
             fragmentManagerHelper.replace(fragment);
-            updateActionButton(R.string.text_action_button_state_more);
+            updateActionButtonText(R.string.text_action_button_state_more);
         } else {
             DescriptionFragment fragment = DescriptionFragment.newInstance(R.string.description_initial);
             fragmentManagerHelper.replace(fragment);
-            updateActionButton(R.string.text_action_button_state_initial);
+            updateActionButtonText(R.string.text_action_button_state_initial);
         }
     }
 
-    private void updateActionButton(@StringRes int resId) {
+    private void updateActionButtonText(@StringRes int resId) {
         btnAction.setText(resId);
     }
 }
