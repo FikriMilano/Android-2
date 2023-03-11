@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ReadSensorData</string>
+    <string name="no_sensor">No sensor</string>
+    <string name="label_light">Light sensor : %1$.2f</string>
+    <string name="label_proximity">Proximity sensor : %1$.2f</string>
+</resources>
