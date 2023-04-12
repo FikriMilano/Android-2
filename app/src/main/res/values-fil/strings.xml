@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Mappyfo</string>
+    <string name="menu_change_language">Baguhin ang Wika</string>
+    <string name="title_indonesia">Indonesia</string>
+    <string name="title_australia">Australia</string>
+    <string name="title_singapore">Singapura</string>
+    <string name="title_malaysia">Malaysia</string>
+    <string name="title_philippines">Pilipinas</string>
+    <string name="desc_indonesia">Ang Indonesia, opisyal na Republika ng Indonesia, ay isang bansa sa Timog-silangang Asya at Oceania sa pagitan ng mga karagatang Indian at Pasipiko. Binubuo ito ng mahigit 17,000 isla, kabilang ang Sumatra, Java, Sulawesi, at mga bahagi ng Borneo at New Guinea.</string>
+    <string name="desc_australia">Ang Australia, na opisyal na tinatawag na Persemakmuran Australia, ay isang bansang berdaulat na binubuo mula sa pangunahing bansa sa Australia, pulo Tasmania, at maraming pulo-pulau. Ang Australia ay ang pinakamalaking bansa sa Oseania at ang pinakamalaking bansa sa dunia.</string>
+    <string name="desc_singapore">Singapura, bilang resmi bernama Republik Singapura, ay isang negara kepulauan at negara kota sa Asia Tenggara na matatagpuan sa kawasan maritim.</string>
+    <string name="desc_malaysia">Ang Malaysia ay isang negara sa Asia Tenggara yang menempati sa Semenanjung Malaya at pulau Kalimantan. Ang bansa ay sikat sa pantai, hutan hujan, at pagsasama-sama ng impluwensya ng kultura Melayu, Tsina, India, at Europa. Ibu kotanya, Kuala Lumpur, merupakan rumah bagi bangunan-bangunan kolonial, distrik perbelanjaan yang sibuk seperti Bukit Bintang at gedung pencakar langit seperti Menara Kembar Petronas yang ikonik at setinggi 451 metro.</string>
+    <string name="desc_philippines">Filipina, bilang resmi bernama Republik Filipina, ay isang negara kepulauan di Asia Tenggara. Ang bansang matatagpuan sa Samudra Pasifik ay bahagi ng barat ay binubuo ng 7.641 pulau na may pinakamaraming bahagi na dikategorikan sa tiga divising pang-gawi na pangunahin mula sa utara hanggang sa timog: Luzon, Visayas, at Mindanao.</string>
+    <string name="appwidget_text">Kabuuang Widget ng Lokasyon</string>
+    <string name="app_widget_description">Ipinapakita ang kabuuang mga destinasyon</string>
+</resources>

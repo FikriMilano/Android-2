@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Mappyfo</string>
+    <string name="menu_change_language">Ganti Bahasa</string>
+    <string name="title_indonesia">Indonesia</string>
+    <string name="title_australia">Australia</string>
+    <string name="title_singapore">Singapura</string>
+    <string name="title_malaysia">Malaysia</string>
+    <string name="title_philippines">Filipina</string>
+    <string name="desc_indonesia">Indonesia, secara resmi bernama Republik Indonesia, adalah sebuah negara di Asia Tenggara dan Oseania yang terletak di antara Samudra Hindia dan Pasifik. Negara ini terdiri dari lebih dari 17.000 pulau, termasuk Sumatra, Jawa, Sulawesi, dan sebagian Kalimantan dan Papua Nugini.</string>
+    <string name="desc_australia">Australia, secara resmi disebut Persemakmuran Australia, adalah sebuah negara berdaulat yang terdiri dari daratan utama benua Australia, pulau Tasmania, dan sejumlah pulau-pulau kecil. Australia adalah negara terbesar berdasarkan luas wilayah di Oseania dan negara terbesar keenam di dunia.</string>
+    <string name="desc_singapore">Singapura, secara resmi bernama Republik Singapura, adalah sebuah negara kepulauan dan negara kota di Asia Tenggara yang terletak di kawasan maritim.</string>
+    <string name="desc_malaysia">Malaysia adalah sebuah negara di Asia Tenggara yang menempati sebagian Semenanjung Malaya dan pulau Kalimantan. Negara ini terkenal dengan pantai, hutan hujan, dan perpaduan pengaruh budaya Melayu, Cina, India, dan Eropa. Ibu kotanya, Kuala Lumpur, merupakan rumah bagi bangunan-bangunan kolonial, distrik perbelanjaan yang sibuk seperti Bukit Bintang dan gedung pencakar langit seperti Menara Kembar Petronas yang ikonik dan setinggi 451 meter.</string>
+    <string name="desc_philippines">Filipina, secara resmi bernama Republik Filipina, adalah sebuah negara kepulauan di Asia Tenggara. Negara yang terletak di Samudra Pasifik bagian barat ini terdiri dari 7.641 pulau yang secara garis besar dikategorikan dalam tiga divisi geografis utama dari utara ke selatan: Luzon, Visayas, dan Mindanao.</string>
+    <string name="appwidget_text">Widget Lokasi Total</string>
+    <string name="app_widget_description">Menampilkan total tujuan</string>
+</resources>

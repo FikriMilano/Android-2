@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Mappyfo</string>
+    <string name="menu_change_language">Change Language</string>
+    <string name="title_indonesia">Indonesia</string>
+    <string name="title_australia">Australia</string>
+    <string name="title_singapore">Singapore</string>
+    <string name="title_malaysia">Malaysia</string>
+    <string name="title_philippines">Philippines</string>
+    <string name="desc_indonesia">Indonesia, officially the Republic of Indonesia, is a country in Southeast Asia and Oceania between the Indian and Pacific oceans. It consists of over 17,000 islands, including Sumatra, Java, Sulawesi, and parts of Borneo and New Guinea.</string>
+    <string name="desc_australia">Australia, officially the Commonwealth of Australia, is a sovereign country comprising the mainland of the Australian continent, the island of Tasmania, and numerous smaller islands. Australia is the largest country by area in Oceania and the worlds sixth-largest country.</string>
+    <string name="desc_singapore">Singapore, officially the Republic of Singapore, is an island country and city-state in maritime Southeast Asia.</string>
+    <string name="desc_malaysia">Malaysia is a Southeast Asian country occupying parts of the Malay Peninsula and the island of Borneo. Its known for its beaches, rainforests and mix of Malay, Chinese, Indian and European cultural influences. The capital, Kuala Lumpur, is home to colonial buildings, busy shopping districts such as Bukit Bintang and skyscrapers such as the iconic, 451m-tall Petronas Twin Towers.</string>
+    <string name="desc_philippines">The Philippines, officially the Republic of the Philippines, is an archipelagic country in Southeast Asia. In the western Pacific Ocean, it consists of 7,641 islands which are broadly categorized in three main geographical divisions from north to south: Luzon, Visayas, and Mindanao.</string>
+    <string name="appwidget_text">Total Location Widget</string>
+    <string name="app_widget_description">Shows total destinations</string>
+</resources>
