@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CustomView</string>
+    <string name="last_name">Last name</string>
+    <string name="menu_change_language">Change Language</string>
+</resources>
