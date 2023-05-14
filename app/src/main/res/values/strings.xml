@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MyLocaleText</string>
+
+    <!-- The Help option in the options menu, no more than 30 chars. -->
+    <string name="action_help">Help</string>
+
+    <!-- The description includes a parenthetical expression.  -->
+    <string name="description">Beng-Beng, a chocolate-combo snack, combines multi layers of tasty element beyond just luscious real chocolate snack. Only Beng Beng holds the key to the exciting combinations, more than just chocolate or wafer. </string>
+
+    <!-- The product name includes "Package" to define a pack.  -->
+    <string name="beng">Beng-Beng</string>
+
+    <!-- Do not translate.  -->
+    <string name="support_phone" translatable="false">+14155551212</string>
+
+    <!-- Support Department should be capitalized.  -->
+    <string name="help_text">If you need help, contact our Support Department.</string>
+
+    <!-- Do not translate.  -->
+    <string name="dial_log_message">Can\'t resolve app for ACTION_DIAL Intent.</string>
+    <string name="action_language">Language</string>
+    <string name="expired_label">Expired date :</string>
+
+    <!--    tugas-->
+    <string name="text_input">Price/item :</string>
+    <string name="text_price">Total price for 100 pax :</string>
+    <string name="btn_submission">Submit</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LocaleText</string>
+    <string name="action_help">يساعد</string>
+    <string name="description">بينج-بينج ، وجبة خفيفة مكونة من الشوكولاتة ، تجمع بين طبقات متعددة من العناصر اللذيذة أكثر من مجرد وجبة خفيفة من الشوكولاتة الحقيقية الشهية. فقط بينج بينج هو الذي يحمل مفتاح التوليفات المثيرة ، أكثر من مجرد شوكولاتة أو بسكويت ويفر.</string>
+    <string name="beng">نوجا كاندي باك</string>
+    <string name="help_text">إذا كنت بحاجة إلى مساعدة ، فاتصل بقسم الدعم لدينا.</string>
+    <string name="dial_log_message">لا يمكن حل التطبيق لـ ACTION_DIAL Intent.</string>
+    <string name="action_language">لغة</string>
+    <string name="expired_label">منتهي الصلاحية :</string>
+    <string name="btn_submission">يُقدِّم</string>
+    <string name="text_input">السعر / العنصر:</string>
+    <string name="text_price">السعر الاجمالي لـ 100 شخص:</string>
+</resources>

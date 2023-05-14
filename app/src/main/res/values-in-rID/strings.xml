@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LocaleText</string>
+    <string name="action_help">Bantuan</string>
+    <string name="description">
+Beng-Beng, snack cokelat-combo, memadukan berbagai lapisan elemen lezat di luar camilan cokelat asli yang lezat. Hanya Beng Beng yang memegang kunci kombinasi menarik, lebih dari sekedar cokelat atau wafer.</string>
+    <string name="beng">Beng-Beng</string>
+    <string name="help_text">Jika Anda memerlukan bantuan, hubungi Departemen Dukungan kami.</string>
+    <string name="dial_log_message">Tidak dapat menyelesaikan aplikasi untuk Maksud ACTION_DIAL.</string>
+    <string name="action_language">Bahasa</string>
+    <string name="expired_label">Tanggal kadaluarsa :</string>
+    <string name="btn_submission">Kirim</string>
+    <string name="text_input">Harga/item :</string>
+    <string name="text_price">Total harga/ 100 pax:</string>
+</resources>
