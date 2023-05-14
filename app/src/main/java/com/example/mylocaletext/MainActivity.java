@@ -28,12 +28,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                showHelp();
-            }
-        });
+        fab.setOnClickListener(view -> showHelp());
 
         Date myDate = new Date();
         long expirationDate = myDate.getTime() +
