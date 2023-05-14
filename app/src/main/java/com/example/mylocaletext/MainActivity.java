@@ -47,16 +47,13 @@ public class MainActivity extends AppCompatActivity {
         inputText = findViewById(R.id.input_text);
         price = findViewById(R.id.total_price);
 
-        findViewById(R.id.btn_submit).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                int harga = Integer.parseInt(inputText.getText().toString());
-                int totalHarga = harga * 100;
+        findViewById(R.id.btn_submit).setOnClickListener(view -> {
+            int price = Integer.parseInt(inputText.getText().toString());
+            int totalPrice = price * 100;
 
-                Locale current = getResources().getConfiguration().locale;
-                String format = NumberFormat.getCurrencyInstance(current).format(totalHarga);
-                price.setText(format);
-            }
+            Locale current = getResources().getConfiguration().locale;
+            String format = NumberFormat.getCurrencyInstance(current).format(totalPrice);
+            this.price.setText(format);
         });
     }
 
