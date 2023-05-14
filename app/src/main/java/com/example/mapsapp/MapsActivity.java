@@ -7,7 +7,9 @@ import androidx.core.content.ContextCompat;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
+import android.content.res.Resources;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -16,7 +18,9 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MapStyleOptions;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.example.mapsapp.databinding.ActivityMapsBinding;
@@ -52,11 +56,17 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
      */
     @Override
     public void onMapReady(GoogleMap googleMap) {
+        googleMap.setMapStyle(MapStyleOptions.loadRawResourceStyle(this, R.raw.style_json));
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
+        googleMap.moveCamera(CameraUpdateFactory.newLatLng(new LatLng(-34, 151)));
         LatLng sv = new LatLng(-7.7757536, 110.3733039);
-        mMap.addMarker(new MarkerOptions().position(sv).title("Marker in SV"));
+        mMap.addMarker(new MarkerOptions()
+                .position(sv)
+                .title("Marker in SV")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET))
+        );
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sv));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(sv, 20));
         setOnMapLongClick(mMap);
@@ -92,7 +102,11 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private void setOnMapLongClick(final GoogleMap map) {
         map.setOnMapLongClickListener(latLng -> {
             String strLatLong = String.format(Locale.getDefault(), "Lat: %1$.5f, Long: %2$.5f", latLng.latitude, latLng.longitude);
-            MarkerOptions markerOptions = new MarkerOptions().position(latLng).title("Dropped pin").snippet(strLatLong);
+            MarkerOptions markerOptions = new MarkerOptions()
+                    .position(latLng)
+                    .title("Dropped pin")
+                    .snippet(strLatLong)
+                    .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET));
             map.addMarker(markerOptions);
         });
     }
@@ -101,8 +115,10 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         map.setOnPoiClickListener(pointOfInterest -> {
             MarkerOptions markerOptions = new MarkerOptions()
                     .position(pointOfInterest.latLng)
-                    .title(pointOfInterest.name);
+                    .title(pointOfInterest.name)
+                    .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET));
             Marker poiMarker = map.addMarker(markerOptions);
+
             poiMarker.showInfoWindow();
         });
     }
@@ -131,6 +147,4 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private boolean isPermissionGranted(int[] grantResults) {
         return grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED;
     }
-
-
 }
